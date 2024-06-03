@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Playfair Display";
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.logo{
+  width: 34px;
+  height: 34px;
+}
+
+.logo-name{
+  width: 66px;
+  height: 30px;
+}
+
+
+li a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold; 
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-btn{
+  background: black;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.spot-light-main{
+  position: absolute;
+  top: -220;
+  left: 20%;
+}
+
+.heading-first h1{
+  position: absolute;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  width: 618px;
+  height: 128px;
+  top: 150px;
+  left: 175px;
+}
+
+.heading-first p{
+  position: absolute;
+  width: 638px;
+  height: 56px;
+  top: 300px;
+  left: 175px;
+  gap: 0px;
+  opacity: 0.5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: grey;
+}
+
+.btn-div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  width: 638px;
+  height: 56px;
+  top: 357px;
+  left: 175px;
+  gap: 20px;
+  opacity: 0.5px;
+}
+
+.main-btn{
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 7px 16px;
+}
+
+.main-btn-2{
+  background: transparent;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  padding: 7px 16px;
+}
+
+.main-btn-2 i{
+  font-size: 20px;
+  padding-right: 7px;
+  text-align: center;
+}
+
+.banner{
+  position: absolute;
+  width: 569px;
+  height: 357.74px;
+  top: 503.75px;
+  left: 141px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.head-img{
+  position: relative;
+  width: 725.49px;
+  height: 725.49px;
+  top: -115px;
+  left: -39px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.bg-circle{
+  position: absolute;
+  width: 383.17px;
+  height: 551.56px;
+  top: 155.94px;
+  left: 35%;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  rotate: 135deg;
+  
+}
+
+.bg-circle-mid{
+  position: absolute;
+  width: 383.17px;
+  height: 551.56px;
+  top: 188.21px;
+  left: 31%;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  rotate: 135deg;
+
+}
+
+.bg-circle-small{
+  position: absolute;
+  width: 383.17px;
+  height: 551.56px;
+  top: 220.47px;
+  left: 28%;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  rotate: 135deg;
+}
+
+.phone-1{
+  position: absolute;
+  top: 110.51px;
+  left: 10%;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 99;
+}
+
+.phone-2{
+  position: absolute;
+  top: 190.51px;
+  left: 25%;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 98;
+}
+
+.phone-3{
+  position: absolute;
+  top: 270.51px;
+  left: 40%;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 97;
+}
+
+.star-1{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 90px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+}
+
+.star-2{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: -11px;
+  right: 3%;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+}
+
+.star-3{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 509px;
+  left: 20%;
+  gap: 0px;
+  opacity: 0px;
+  rotate: 45deg;
+  object-fit: cover;
+}
+
+.star-4{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 710px;
+  left: 30%;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+  rotate: 15deg;
+}
+
+.spot-light-phone-side{
+  position: absolute;
+  width: 593px;
+  height: 385.14px;
+  top: 504.85px;
+  left: 115px;
+  gap: 0px;
+  opacity: 0px;
+  rotate: 140deg;
+}
+
